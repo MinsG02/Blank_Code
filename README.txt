@@ -1,4 +1,4 @@
-제일 최근 commit 덮어씌워 push 하기
+[제일 최근 commit 덮어씌워 push 하기]
 1. git add .
 2. git commit --amend
 3. 커밋 메시지 작성 (다 쓰고 나서 :wq!)
