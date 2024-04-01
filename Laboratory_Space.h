@@ -3,5 +3,5 @@
 
 void test(void)
 {
-	printf("asdf");
+	printf("asdasdfasdff");
 }
