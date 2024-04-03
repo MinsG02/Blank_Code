@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	int balls[45];
+	int balls[9];
+	int picked[9] = {0}; // 이미 뽑힌 번호를 기록하는 배열
 	
 	const int LEN = sizeof(balls) / sizeof(balls[0]);
 	int temp; //??
@@ -17,12 +18,18 @@ int main(void)
 	
 	for(int i = 0; i < LEN; i++)
 	{
-		balls[i] = i + 1; //1~45로 초기화 시켜줌(배열 초기화)
+		balls[i] = i + 1; //1~9로 초기화 시켜줌(배열 초기화)
 	}
 	
 	for(int i = 0; i < LEN; i++)
 	{
-		n = rand() % LEN; //0~44의 임의의 수를 가질 수 있도록 해줌
+		do {
+			n = rand() % LEN; // 0부터 8 사이의 난수 생성
+		} while (picked[n] == 1); // 이미 뽑힌 번호인 경우 다시 뽑기
+        
+        picked[n] = 1; // 뽑은 번호를 기록
+		
+		//n = rand() % LEN; //1~9의 임의의 수를 가질 수 있도록 해줌
 		
 	
 		/*뒤썪어 주는 셔플 구현*/
@@ -33,7 +40,7 @@ int main(void)
 	}
 	
 	
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 9; i++)
 	{
 		printf("%d ", balls[i]);
 	}
