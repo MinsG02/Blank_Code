@@ -5,14 +5,14 @@
 
 int main(void)
 {
+	char arr[] = {'\0'};
 	
-	int i;
-	char arr[] = {"H""e""l""l""o"};
+	printf("단어를 하나만 입력하세요.>");
+	scanf("%s", arr[1]);
+	
 	const int LEN = sizeof(arr) / sizeof(arr[0]);
 	
-	for(i = 0; arr[i]!='\0'; i++) //센티널을 만날 때까지 i가 계속 증가함
-		;
-	printf("이건i%d 이건 배열의길이%d\n", i, LEN);
-	printf("%s", arr);
-	return 0;
+	printf("입력한 단어:%s", arr);
+	printf("입력한 단어의 문자갯수:%d", LEN);
+	
 }
