@@ -14,5 +14,16 @@ int main(void)
 	
 	printf("입력한 단어:%s", arr);
 	printf("입력한 단어의 문자갯수:%d", LEN);
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
+		printf("입력한 단어의 문자갯수:%d", LEN);///asdfasdfasdfasdfasfasfasdfasdfasdfasdfasdfsdfasdfasfasdfas
 	
 }
